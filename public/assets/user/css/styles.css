@@ -1,0 +1,358 @@
+header
+{
+	font-family: "Poppins";
+	background-color: #fff !important;
+	/*background: linear-gradient(to right, #8062d9, #f43a67);*/
+}
+li.nav-item a
+{
+	font-size: 14px;
+	text-transform: uppercase;
+	/*padding-left: 2em !important;*/
+	margin-left: 1em;
+}
+li.nav-item2 a
+{
+	color: #000 !important;
+}
+li.nav-item2:hover
+{
+	text-decoration: underline;
+}
+header .btn-cari
+{
+	display: none;
+}
+.jumbotron
+{
+	padding-bottom: 10.5em !important;
+	padding-top: 9.5em;
+	border-radius: 0%;
+	background: linear-gradient(-45deg, #e73c7e, #8062d9, #fc4364);
+	position: relative;
+	background-size: 400% 400%;
+	animation: bergerak 10s ease-in-out infinite;
+}
+@keyframes bergerak 
+{
+	0%
+	{
+		background-position: 0 50%;
+	}
+	50%
+	{
+		background-position: 100% 50%;
+	}
+	100%
+	{
+		background-position: 0 50%;
+	}
+}
+.card
+{
+	margin-bottom: 2.5em !important;
+	width: 20.5rem !important;
+}
+.card-categories
+{
+	height: 100px !important;
+	margin-bottom: 2em;
+}
+img.circle
+{
+	border-radius: 50% 50% 50% 50%;
+	width: 30px;
+	height: 30px;
+}
+h1.title, p.content-title
+{
+	color: #fff;
+}
+.btn-sign-up
+{
+	background-color: #fc4364;
+	/*border: 0.5px solid #fff;*/
+	border-radius: 20px 20px 20px 20px;
+	width: 100px;
+}
+a.btn-sign-up
+{
+	color: #fff !important;
+}
+div.btn-select
+{
+	margin-top: 30px;
+}
+.btn-belajar
+{
+	background: linear-gradient(-45deg, #8062d9, #fc4364);
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #fff; 
+}
+a.btn-belajar
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-belajar:hover
+{
+	background: #fff;
+	color: #000;
+	transition: 1s;
+}
+.btn-nanti
+{
+	background: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #fff; 
+	cursor: pointer;
+}
+.btn-nanti:hover
+{
+	background-color: #fff;
+	transition: 1s;
+}
+a.btn-nanti
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-categories
+{
+	background: linear-gradient(to right, #3167b6, #6498e5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+a.btn-categories
+{
+	color: #fff;
+	text-decoration: none;
+}
+a.btn-categories:hover
+{
+	color: #fff;
+}
+.modal
+{
+	margin-top: 10em !important;
+}
+.modal-header
+{
+	border: none !important;
+}
+button.btn-search
+{
+	background-color: #fc4364 !important;
+	color: #fff !important;
+}
+#input-cari
+{
+	transition: 0 !important;
+	opacity: 1 !important;
+}
+
+/* BATASAN UNTUK BLOG */
+h1.home-blog
+{
+	padding-top: 2em !important;
+	color: #fff;
+	text-transform: uppercase;
+}
+ol.breadcrumb
+{
+	background-color: transparent !important;
+}
+li.breadcrumb-item a
+{
+	text-decoration: none !important;
+	color: #fff !important;
+}
+.blog
+{
+	margin-top: 8em;
+}
+.btn-load-more
+{
+	color: #fff;
+	font-family: 'Poppins';
+	background-color: #fc4364;
+	border-radius: 20px 20px 20px 20px;
+	width: 200px;
+}
+.btn-load-more:hover
+{
+	color: #fff;
+}
+/* DETAILS */
+.post
+{
+	background-color: #fff;
+	margin-top: 1em;
+	padding: 20px;
+}
+.breadcumb 
+{
+	margin-top: 1em !important;
+}
+.breadcumb a
+{
+	color: #000 !important;
+}
+.breadcumb a.home
+{
+	font-weight: bold;
+	color: #007bff !important;
+}
+.breadcumb a.title
+{
+	color: #000;
+}
+.thumbnail img
+{
+	border-radius: 10px 10px 10px 10px;
+}
+.title
+{
+	margin-bottom: 1em;
+}
+.info
+{
+	margin-top: 1em;
+}
+.badge-info
+{
+	font-size: 1em;
+}
+.recent-post
+{
+	background-color: #fff;
+	margin-top: 1em;
+	padding: 20px 10px 20px 20px;
+}
+.recent-post h3
+{
+	text-transform: uppercase;
+}
+.products
+{
+	background-color: #fff;
+	margin-top: 1em;
+	padding: 20px;
+}
+.products h3
+{
+	text-transform: uppercase;
+}
+.tags
+{
+	background-color: #fff;
+	margin-top: 1em;
+	padding: 20px;
+	margin-bottom: 1em;
+}
+.tags h3
+{
+	text-transform: uppercase;
+}
+.tags span.badge
+{
+	border-radius: 20px 20px 20px 20px !important;
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+.recent-content
+{
+	margin-top: 1em;
+}
+.recent-content img
+{
+	width: 70px;
+	border-radius: 5px 5px 5px 5px;
+}
+span.recent-title
+{
+	font-size: 1em;
+	color: #000;
+	padding-left: 0.5em;
+}
+.footer
+{
+	background-color: #fd3a5c !important;
+	border-top: #fd3a5c 2px solid;
+	height: 65px;
+}
+.footer p
+{
+	color: #fff !important;
+}
+@media (max-width: 768px)
+{
+	.jumbotron
+	{
+		padding-top: 7.5em;
+		height: 540px;
+	}
+	.fa-bars
+	{
+		font-size: 1.4em !important;
+		color: #000 !important;
+	}
+	.btn-sign-up
+	{
+		width: 420px;
+	}
+	li.nav-item a
+	{
+		margin-left: 0em !important;
+	}
+	li#search
+	{
+		display: none !important;
+	}
+	header .btn-cari
+	{
+		display: block;
+		padding: 0.25rem 0.75rem;
+		font-size: 1.2rem;
+		background-color: transparent;
+		border: 1px solid transparent;
+		border-radius: 0.25rem;
+		margin-left: 8em;
+	}
+	.dropdown-menu
+	{
+		margin-left: 0em !important;
+	}
+	.card
+	{
+		width: 27rem !important;
+	}
+	.title h3
+	{
+		font-size: 1.5em;
+	}
+	.recent-content img
+	{
+		width: 100px;
+		border-radius: 5px 5px 5px 5px;
+	}
+	span.recent-title
+	{
+		font-size: 1em;
+		color: #000;
+		padding-left: 0.5em;
+	}
+}

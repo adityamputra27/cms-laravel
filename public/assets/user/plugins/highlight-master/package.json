@@ -1,0 +1,54 @@
+{
+  "name": "highlight.js",
+  "description": "Syntax highlighting with language autodetection.",
+  "keywords": [
+    "highlight",
+    "syntax"
+  ],
+  "homepage": "https://highlightjs.org/",
+  "version": "10.0.0-beta.0",
+  "author": {
+    "name": "Ivan Sagalaev",
+    "email": "maniac@softwaremaniacs.org"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlight.js/issues"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/highlightjs/highlight.js.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "mocha": "mocha",
+    "test": "mocha --globals document test",
+    "test-browser": "mocha --globals document test/browser"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "^5.0.0",
+    "del": "^5.1.0",
+    "dependency-resolver": "^2.0.1",
+    "glob": "^7.1.4",
+    "glob-promise": "^3.4.0",
+    "handlebars": "^4.5.3",
+    "js-beautify": "^1.10.2",
+    "jsdom": "^16.0.1",
+    "lodash": "^4.17.15",
+    "mocha": "^7.0.1",
+    "rollup": "^2.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "should": "^13.2.3",
+    "terser": "^4.3.9",
+    "tiny-worker": "^2.3.0"
+  },
+  "dependencies": {}
+}
