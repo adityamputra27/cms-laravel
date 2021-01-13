@@ -1,4 +1,4 @@
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="400"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="200"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -80,7 +80,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Cara Instalasi nya skuy
 <ol>
-    <li>Download ZIP nya diatas</li>
+    <li>Download / Clone dulu (zip atau yg lainnya) nya diatas</li>
     <li>Composer update</li>
     <li>Rename .env example jadi .env</li>
     <li>php artisan key:generate</li>
