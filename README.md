@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALaravel.svg&psig=AOvVaw2vZbds4yoP0rassaDxxHyY&ust=1610606598016000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjnm7jJl-4CFQAAAAAdAAAAABAJ" width="400"></p>
+<p align="center"><img src="https://commons.wikimedia.org/wiki/File:Laravel.svg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -77,3 +77,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Cara Instalasi nya skuy
+<ol>
+    <li>Download ZIP</li>
+</ol>
